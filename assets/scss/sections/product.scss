@@ -1,0 +1,30 @@
+.product {
+  height: 500px;
+  padding: 0 215px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: $colorLightBlack url('../img/bg/servicesbg.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  &__info {
+    width: 565px;
+    line-height: 1.27;
+  }
+  &__title {
+    font-size: 45px;
+    line-height: 90px;
+    color: $colorWhite;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 310px;
+  }
+  &__link {
+    text-decoration: underline;
+    color: $colorWhite;
+  }
+}

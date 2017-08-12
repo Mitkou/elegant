@@ -1,0 +1,66 @@
+.footer {
+  position: relative;
+  padding-top: 118px;
+  padding-bottom: 230px;
+  background: $colorLightBlack url('../img/bg/footerbg.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.socials {
+  display: flex;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 135px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  &__icon {
+    fill: $colorWhite;
+  }
+}
+
+.contact {
+  max-width: 670px;
+  margin: 80px auto 0;
+  &__row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    &:not(:first-child) {
+      margin-top: 100px;
+    }
+  }
+  &__input {
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    border-bottom: 2px solid $colorBorderWhite;
+    background-color: transparent;
+    font-size: 18px;
+    font-style: italic;
+    text-align: left;
+    color: $colorWhite;
+    & ~ & {
+      margin-left: 65px;
+    }
+  }
+  &__submit {
+    position: absolute;
+    width: 370px;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    margin-left: -165px;
+    margin-bottom: 100px;
+    padding: 20px 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $colorWhite;
+    text-align: center;
+    border: solid 3px $colorWhite;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,40 @@
+.services{
+  padding: 115px 0;
+  &__list {
+    display: flex;
+    padding: 0  200px;
+    justify-content: space-between;
+    align-items: center;
+    color: $colorLightBlack;
+  }
+}
+
+.service {
+  max-width: 340px;
+  margin-top: 155px;
+  &__icon {
+    fill: $colorIconBlue;
+    &:first-child {
+      width: 75px;
+      height: 132px;
+    }
+    &:nth-child(1) {
+      width: 192px;
+      height: 148px;
+    }
+    &:nth-child(2) {
+      width: 116px;
+      height: 116px;
+    }
+  }
+  &__title {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+  }
+  &__info {
+    font-size: 16px;
+    line-height: 1.88;
+  }
+}

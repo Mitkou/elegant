@@ -1,0 +1,23 @@
+.works {
+  padding: 118px 215px 80px;
+  &__list {
+    display: flex;
+    margin-top: 165px;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 370px;
+    height: 420px;
+    &:hover {
+      border-top: 4px solid $colorDarkWhite;
+    }
+  }
+  & .box {
+    &__title:after {
+      top: calc(100% + 50px);
+    }
+  }
+  & .button {
+    margin-top: 80px;
+  }
+}

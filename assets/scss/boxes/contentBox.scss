@@ -1,0 +1,37 @@
+.box {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: $colorWhite;
+  &__title {
+    position: relative;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    &:after {
+      display: block;
+      position: absolute;
+      top: calc(100% + 40px);
+      left: 50%;
+      margin-left: -43px;
+      content: '';
+      width: 86px;
+      height: 2px;
+      background-color: $colorWhite;
+    }
+  }
+  &--black {
+    width: 100%;
+    .box__title {
+      font-size: 35px;
+      color: $colorLightBlack;
+      &:after {
+        top: calc(100% + 65px);
+        background-color: $colorLightBlack;
+      }
+    }
+  }
+}
