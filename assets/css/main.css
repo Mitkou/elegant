@@ -49,6 +49,8 @@
   list-style: none;
   text-transform: uppercase;
   font-size: 14px; }
+.navigation__link {
+  color: #fff; }
 
 .box {
   display: block;
